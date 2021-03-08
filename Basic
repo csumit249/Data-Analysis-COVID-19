@@ -1,0 +1,54 @@
+"""
+Created on Sat Feb  6 13:45:02 2021
+
+@author: Sumit chatterjee
+"""
+#####################################################################################################################################################
+rows = 5
+for i in range(0, rows):
+    for j in range(0, i + 1):
+        print("*", end=' ')
+    print("\r")
+
+for i in range(rows, 0, -1):
+    for j in range(0, i - 1):
+        print("*", end=' ')
+    print("\r")
+#######################################################################################################################################################
+def multiplication_or_sum(num1, num2):
+    # calculate product of two number
+    product = num1 * num2
+    # check if product is less then 1000
+    if product <= 1000:
+        return product
+    else:
+        # product is less than 1000 calculate sum
+        return num1 + num2
+
+
+# first condition
+result = multiplication_or_sum(20, 30)
+print("The result is", result)
+
+# Second condition
+result = multiplication_or_sum(40, 30)
+print("The result is", result)
+######################################################################################################################
+for num in range(10):
+    for i in range(num):
+        print (num, end=" ") #print number
+    # new line after each row to display pattern correctly
+    print("\n")
+########################################################################################################################
+for i in range(6, 0, -1):
+    for j in range(0, i - 1):
+        print("*", end=' ')
+    print(" ")
+########################################################################################################################
+def summation(num):
+    Num = 0
+    for i in range(0,num):
+        sum = Num + i
+        Num = sum
+        print(sum)
+summation(10)
