@@ -16,4 +16,4 @@ Here is where you use data analysis software and other tools to help you interpr
 # Data Interpretation. 
 Now that you have your results, you need to interpret them and come up with the best courses of action, based on your findings.
 Data Visualization. Data visualization is a fancy way of saying, “graphically show your information in a way that people can read and understand it.” You can use charts, graphs, maps, bullet points, or a host of other methods. Visualization helps you derive valuable insights by helping you compare datasets and observe relationships. 
-![alt text](http://www.techrepublic.com/a/hub/i/r/2015/09/30/f66fef72-5d57-48cc-bd8c-7ec0941e73ef/resize/1200x/c7e3985615f96fd77c8a861f27b31a6d/dataanalysisistockrobuart.jpg/to/img.png)
+
