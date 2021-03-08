@@ -1,4 +1,4 @@
-# Data-analysis-
+# Data-analysis-Workshop Covid 19 
 Although many groups, organizations, and experts have different ways to approach data analysis, most of them can be distilled into a one-size-fits-all definition. Data analysis is the process of cleaning, changing, and processing raw data, and extracting actionable, relevant information that helps businesses make informed decisions. The procedure helps reduce the risks inherent in decision making by providing useful insights and statistics, often presented in charts, images, tables, and graphs.
 
 It’s not uncommon to hear the term “big data” brought up in discussions about data analysis. Data analysis plays a crucial role in processing big data into useful information. Neophyte data analysts who want to dig deeper by revisiting big data fundamentals should go back to the basic question, “What is data?”
