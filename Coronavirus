@@ -1,0 +1,41 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+data = pd.read_csv("D:/embedded/covid_19_dataa.csv")
+time = pd.to_datetime(data['ObservationDate'])
+dat = data.drop(columns=["ObservationDate","SNo"])
+dat['time'] = time
+print(dat)
+dat.plot(figsize=(15,4))
+dat.plot(subplots=True, figsize=(15,6))
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+import numpy as np
+data = pd.read_csv("D:/embedded/covid_19_dataa.csv")
+dat = data.drop(columns=["ObservationDate","SNo"])
+time = pd.to_datetime(data['ObservationDate'])
+time_data = np.array(time)
+dat['time_period']=time_data
+dat = dat[0:1000]
+plt.plot(dat['time_period'],dat['Recovered'])
+plt.xlabel("Time series")
+plt.ylabel("covid 19 data")
+plt.show()
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+import numpy as np
+data = pd.read_csv("D:/embedded/covid_19_dataa.csv")
+dat = data.drop(columns=["ObservationDate","SNo"])
+time = pd.to_datetime(data['ObservationDate'])
+time_data = np.array(time)
+dat['time_period']=time_data
+dat = dat[0:1000]
+plt.plot(dat['time_period'],dat['Confirmed'])
+plt.xlabel("Time series")
+plt.ylabel("covid 19 data")
+plt.show()
