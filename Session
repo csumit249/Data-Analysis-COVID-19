@@ -1,0 +1,39 @@
+"""
+Created on Sat Feb  6 13:45:02 2021
+
+@author: Sumit chatterjee
+"""
+
+import matplotlib.pyplot as plt
+import pandas as pd 
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import seaborn as sns
+
+df = pd.read_csv("E:/embedded/class new/diabetes.csv")
+df.head()
+aa=sns.pairplot(df)
+df.plot(figsize=(15,4))
+
+a = [1, 2,0,4]
+for i in range(0,4):
+    try:
+        b = 1/a[i]
+        print(b)
+    except ZeroDivisionError:
+        i= i+1
+        
+b = ["hello",23,0.56]
+import numpy as np
+a = np.array(b)
+c = ["hello",2,0.6980,"str","#",4]
+d = np.array(c).reshape(2,3)
+print(d)
+print(np.sort(d))
+
+import pandas as pd
+import numpy as np
+data = np.random.randn(4,1)
+print(data)
+df = pd.DataFrame(data)
+print(df.T)
